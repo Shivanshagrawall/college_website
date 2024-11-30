@@ -1,0 +1,125 @@
+.program_section{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    margin-top: 2rem;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.program_heading{
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.program_heading h3{
+    font-size: 32px;
+}
+
+.program_cards{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.program_card{
+    width: 350px;
+    height: 420px;
+    /* border: 2px solid red; */
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.program_card img{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.program_card_content{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 8px;
+}
+
+.program_card_content h4{
+    font-size: 20px;
+}
+
+.program_card_content button{
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: var(--secondary-color);
+    color: var(--bg-color);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.program_card_content button:hover{
+    background-color: var(--primary-color);
+    transform: translateY(-5px);
+}
+/* .card{
+    width: 300px;
+    height: 250px;
+    border: 2px solid red;
+    background-color: rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.5s;
+    margin: 10px;
+}
+
+.card h4{
+    font-size: 28px;
+}
+
+.card p{
+    font-size: 16px;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+} */
+
+@media screen and (max-width:450px) {
+    .program_card{
+        line-height: 1.3;
+    }
+    .program_card_content{
+        gap: 5px;
+    }
+    .program_card_content h4{
+        font-size: 18px;
+    }
+    .program_card_content p{
+        font-size: 16px;
+    }
+}

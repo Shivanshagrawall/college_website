@@ -1,0 +1,39 @@
+.contact_section{
+    width: 100%;
+    min-height: 280px;
+    /* border: 2px solid red; */
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.quick_link,.program,.contactus,.follow_us{
+    width:250px;
+    height: auto;
+    /* border: 2px solid red; */
+    margin: 10px;
+}
+
+.quick_link h4,.program h4,.contactus h4,.follow_us h4{
+    font-size: 24px;
+}
+
+.quick_link ul,.program ul,.contactus ul,.follow_us ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.quick_link ul li,.program ul li,.follow_us ul li{
+    cursor: pointer;
+}
+
+.quick_link ul li:hover,.program ul li:hover,.follow_us ul li:hover{
+    text-decoration: underline;
+    color: var(--accent-color);
+}
