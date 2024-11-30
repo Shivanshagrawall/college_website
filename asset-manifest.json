@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/college_website/static/css/main.2d9f0f8f.css",
+    "main.js": "/college_website/static/js/main.69464f71.js",
+    "static/js/453.bf3c081c.chunk.js": "/college_website/static/js/453.bf3c081c.chunk.js",
+    "static/media/college_logo.jpg": "/college_website/static/media/college_logo.d3ba965de79a3c7572ed.jpg",
+    "static/media/computer_science.avif": "/college_website/static/media/computer_science.7f10b1e8c2d6b87be6c8.avif",
+    "static/media/electrical_engineering.avif": "/college_website/static/media/electrical_engineering.c249fbb3063a51277fa4.avif",
+    "static/media/chemical_engineering.avif": "/college_website/static/media/chemical_engineering.5ae36c7373e816fcfdfa.avif",
+    "static/media/bio_technology.avif": "/college_website/static/media/bio_technology.a5a36768ce66fec1997a.avif",
+    "static/media/information_technology.avif": "/college_website/static/media/information_technology.64868cc807183ae30b56.avif",
+    "index.html": "/college_website/index.html",
+    "main.2d9f0f8f.css.map": "/college_website/static/css/main.2d9f0f8f.css.map",
+    "main.69464f71.js.map": "/college_website/static/js/main.69464f71.js.map",
+    "453.bf3c081c.chunk.js.map": "/college_website/static/js/453.bf3c081c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d9f0f8f.css",
+    "static/js/main.69464f71.js"
+  ]
+}
